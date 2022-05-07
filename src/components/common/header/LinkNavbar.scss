@@ -1,0 +1,63 @@
+@import "../../../sass/Style.scss";
+
+.linknav {
+    color: $white;
+    font-family: $text;
+    font-size: 20px;
+    font-weight: $regular;
+    display: flex;
+    align-items: center;
+}
+
+/* Hide extra text */
+.mask {
+    position: relative;
+    height: 20px;
+    overflow: hidden;
+}
+
+.link-container {
+    transition: transform 0.4s ease;
+}
+
+.title {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+
+    transition: transform 0.4s ease;
+}
+
+.link-title1 {
+    transform-origin: right center;
+}
+
+.link-title2 {
+    transform-origin: left center;
+    transform: rotate(20deg);
+}
+
+/* Hover Action*/
+
+/* Move up two texts (20px = font-size) */
+.linknav:hover .link-container {
+    transform: translateY(-20px);
+}
+
+/* Rotate texts a little bit */
+.linknav:hover .link-title1 {
+    transform: rotate(20deg);
+}
+
+.linknav:hover .link-title2 {
+    transform: rotate(0);
+}
+
+/* Move arrows to right */
+.linknav:hover .icon:first-child {
+    transform: translate(40px);
+}
+
+.linknav:hover .icon:nth-child(2) {
+    transform: translate(0px);
+}
