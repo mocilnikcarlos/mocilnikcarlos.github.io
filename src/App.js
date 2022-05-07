@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "./components/common/header/Header";
 import "./sass/Style.scss";
 
 const App = () => {
   return (
-    <div>
+    <Fragment>
       <Header />
-    </div>
+    </Fragment>
   );
 };
 
