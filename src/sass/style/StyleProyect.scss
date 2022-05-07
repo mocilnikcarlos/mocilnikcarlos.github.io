@@ -1,0 +1,40 @@
+//All style proyect
+
+//COLORS
+//Primary
+$white: #EEF0F3;
+$grey: #AEB3BA;
+$background: #191A1C;
+$black: #0C0E14;
+$dark: #04060D;
+
+//Secundary
+$blue: #09A7FF;
+$red: #FF2156;
+$yellow: #F2F212;
+
+//Thirt
+$optionColor: #28292C;
+
+//Shadows
+$shadowBlack: 0 3px 10px #04060D50;
+$shadowWhite: 0 3px 10px #AEB3BA50;
+$shadowBlue: 0 0 6px #09A7FF50;
+$shadowRed: 0 0 6px #FF215650;
+$shadowYellow: 0 0 4px $yellow;
+
+//Tipografia
+$title: 'Nunito',
+sans-serif;
+$text: 'Prompt',
+sans-serif;
+
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+//Gradiente
+$gradientVertical: linear-gradient(to bottom, $blue, $red);
+$gradientDeg: linear-gradient(to bottom right, $blue, $red);
+$gradientHorizontal: linear-gradient(to right, $blue, $red);

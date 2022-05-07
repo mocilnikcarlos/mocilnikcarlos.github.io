@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="334.5" height="63" viewBox="0 0 334.5 63">
+  <defs>
+    <filter id="Cabeza" x="0" y="8" width="72.108" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#aeaeae"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="CAT_QUANTUM" x="66.5" y="0" width="268" height="63" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#09a7ff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logo" transform="translate(4.5 8.5)">
+    <g id="Logo_Ligth_Ligth" data-name="Logo Ligth Ligth" transform="translate(0 3)">
+      <g transform="matrix(1, 0, 0, 1, -4.5, -11.5)" filter="url(#Cabeza)">
+        <path id="Cabeza-2" data-name="Cabeza" d="M15.872,38.02c-4.092-1.589-6.851-4.109-8.194-7.366l-4.906.9a.763.763,0,0,1-.138.013.835.835,0,0,1-.8-.646.738.738,0,0,1,.571-.915l4.762-.871A12.834,12.834,0,0,1,6.9,27.859l-5.518.386-.067,0a.793.793,0,1,1-.044-1.584l5.471-.4q-.014-.324-.014-.653c0-.213.005-.426.016-.638l-5.9-.329A.831.831,0,0,1,0,23.8a.892.892,0,0,1,.981-.74l5.946.275a14.127,14.127,0,0,1,2.036-5.129C8.8,16.956,6.948,1.923,10.391.211,13.766-1.466,23.428,7.423,24.583,8.5a34.443,34.443,0,0,1,13.851-.013c.857-.8,10.811-9.988,14.248-8.28,3.4,1.692,1.516,16.276,1.308,17.8a14.185,14.185,0,0,1,2.16,5.322l5.975-.277a.892.892,0,0,1,.981.74.831.831,0,0,1-.846.842l-5.926.33c.01.211.016.423.016.636s0,.436-.011.651l5.5.4a.793.793,0,1,1-.044,1.584l-.067,0-5.509-.385q-.081.658-.212,1.29l4.7.859a.738.738,0,0,1,.571.915.835.835,0,0,1-.8.646.764.764,0,0,1-.139-.013l-4.74-.872a11.92,11.92,0,0,1-6.832,7.336C44.624,39.863,37.541,40,31.539,40,25.825,40,20.216,39.708,15.872,38.02Z" transform="translate(4.5 11.5)" fill="#fafafa"/>
+      </g>
+      <g id="Boquita" transform="translate(24.219 28.133)">
+        <path id="Izquierda" d="M-2817.008-5816.883a2.312,2.312,0,0,1-1.239,2.037,4.4,4.4,0,0,1-3.953,0c-2.811-1.19-2.049-4.478-2.049-4.478" transform="translate(2824.343 5819.324)" fill="none" stroke="#303841" stroke-width="1"/>
+        <path id="Derecha" d="M-2824.342-5816.883a2.312,2.312,0,0,0,1.238,2.037,4.409,4.409,0,0,0,3.954,0c2.811-1.191,2.048-4.479,2.048-4.479" transform="translate(2831.678 5819.324)" fill="none" stroke="#303841" stroke-width="1"/>
+        <line id="Centro" y2="1.711" transform="translate(7.335 0.763)" fill="none" stroke="#303841" stroke-width="1"/>
+      </g>
+      <path id="Nariz" d="M9.933,15.272A1.823,1.823,0,0,1,11,14.785a2.306,2.306,0,0,1,1.17.487s1.2.94,1.114,1.755-.363.911-1.114,1.287a2.358,2.358,0,0,1-2.238,0c-.756-.377-1.046-.472-1.133-1.287S9.933,15.272,9.933,15.272Z" transform="translate(20.511 11.441)" fill="#303841"/>
+      <g id="Ojos" transform="translate(16.359 21.559)">
+        <circle id="Izquierdo" cx="3.112" cy="3.112" r="3.112" transform="translate(0 0)" fill="#303841"/>
+        <circle id="Derecho" cx="3.112" cy="3.112" r="3.112" transform="translate(24.116)" fill="#303841"/>
+      </g>
+    </g>
+    <g id="Text" transform="translate(-39 -26.5)">
+      <g transform="matrix(1, 0, 0, 1, 34.5, 18)" filter="url(#CAT_QUANTUM)">
+        <text id="CAT_QUANTUM-2" data-name="CAT QUANTUM" transform="translate(75 41.5)" fill="none" stroke="#eef0f3" stroke-width="1" font-size="30" font-family="Prompt-ExtraBold, Prompt" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">CAT QUANTUM</tspan></text>
+      </g>
+      <text id="CAT_QUANTUM-3" data-name="CAT QUANTUM" transform="translate(109.5 59.5)" fill="none" stroke="#eef0f3" stroke-width="1" font-size="30" font-family="Prompt-ExtraBold, Prompt" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">CAT QUANTUM</tspan></text>
+    </g>
+  </g>
+</svg>

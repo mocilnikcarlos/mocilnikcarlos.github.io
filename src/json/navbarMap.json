@@ -1,0 +1,27 @@
+{"navbar": [
+    {
+        "name": "Inicio",
+        "url": "/",
+        "id": 1
+    },
+    {
+        "name": "Servicio",
+        "url": "/servicio",
+        "id": 2
+    },
+    {
+        "name": "Proyecto",
+        "url": "/proyecto",
+        "id": 3
+    },
+    {
+        "name": "Sobre Mí",
+        "url": "/sobremi",
+        "id": 4
+    },
+    {
+        "name": "Contacto",
+        "url": "/contacto",
+        "id": 5
+    }
+]}

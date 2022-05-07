@@ -1,0 +1,24 @@
+@import "../../../sass/Style.scss";
+
+.header{
+    background: $background;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.box-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 82%;
+}
+
+.listnav{
+    display: flex;
+    gap: 47px;
+}
