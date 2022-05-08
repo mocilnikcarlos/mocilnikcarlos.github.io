@@ -11,11 +11,8 @@
 }
 
 .box-header{
-    display: flex;
-    align-items: center;
+    @include header;
     justify-content: space-between;
-    margin: auto;
-    width: 82%;
 }
 
 .listnav{

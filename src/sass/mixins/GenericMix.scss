@@ -1,0 +1,24 @@
+//All mixins generic
+
+//Header
+@mixin header {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 82%;
+}
+
+//Measurements across the screen
+@mixin vw($num) {
+    margin: auto;
+    width: $num;
+}
+
+//Background Image
+@mixin bgImg ($img){
+    $url: "../../assets/image/#{$img}.png";
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
