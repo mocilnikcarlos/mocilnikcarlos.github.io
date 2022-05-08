@@ -1,13 +1,16 @@
 import React, { Fragment } from "react";
-import { Routes } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/common/header/Header";
+import Home from "./pages/home/Home";
 import "./sass/Style.scss";
 
 const App = () => {
   return (
     <Fragment>
       <Header />
-      <Routes></Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </Fragment>
   );
 };
