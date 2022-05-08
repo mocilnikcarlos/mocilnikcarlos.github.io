@@ -1,0 +1,13 @@
+@import "../../../../sass/Style.scss";
+
+.my-name{
+    display: flex;
+    gap: 12px;
+}
+
+.name-epigraph{
+    font-size: 14px;
+    font-weight: $regular;
+    font-family: $text;
+    color: $grey;
+}

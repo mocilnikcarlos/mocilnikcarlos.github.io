@@ -1,0 +1,12 @@
+@import "../../../sass/Style.scss";
+
+.box-linerow{
+    display: flex;
+    align-items: center;
+}
+
+.linerow{
+    border-top: 3px solid $grey;
+    opacity: 50%;
+    width: 25px;
+}

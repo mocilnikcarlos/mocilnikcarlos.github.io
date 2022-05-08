@@ -1,0 +1,29 @@
+@import "../../../../sass/Style.scss";
+
+.subtitle{
+    display: flex;
+    gap: 16px;
+    height: 50px;
+}
+
+.subtitle-title, .subtitle-text{
+    font-size: 14px;
+    font-weight: $medium;
+    font-family: $text;
+    color: $grey;
+}
+
+.subtitle-title{
+    margin-top: 4px;
+}
+
+.subtitle-text{
+    margin-left: 16px;
+    opacity: 50%;
+}
+
+.subtitle-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
