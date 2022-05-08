@@ -1,0 +1,19 @@
+@import "../../sass/Style.scss";
+
+.hero{
+    height: 100vh;
+    @include bgImg(bghero);
+}
+
+.box-hero{
+    @include vw(82%);
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-subtitle{
+    display: flex;
+    gap: 50px;
+}
