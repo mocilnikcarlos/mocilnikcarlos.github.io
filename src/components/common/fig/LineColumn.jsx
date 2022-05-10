@@ -9,4 +9,12 @@ const LineColumn = () => {
   );
 };
 
-export default LineColumn;
+const LineColumnSocial = () => {
+  return (
+    <div className="box-linecolumnsocial">
+      <div className="linecolumnsocial"></div>
+    </div>
+  );
+};
+
+export { LineColumnSocial, LineColumn };
