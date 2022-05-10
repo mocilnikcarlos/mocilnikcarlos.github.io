@@ -1,5 +1,5 @@
 import React from "react";
-import LineColumn from "../../fig/LineColumn";
+import { LineColumn } from "../../fig/LineColumn";
 import "./SubtitleHero.scss";
 
 //* Subtitulo Ciudad *
