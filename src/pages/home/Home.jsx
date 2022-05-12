@@ -1,5 +1,6 @@
 import React from "react";
-import SocialDesk from "../../components/common/common/SocialDesk";
+import SocialDesk from "../../components/common/pages/SocialDesk";
+import DesignerUX from "./DesignerUX";
 import Hero from "./Hero";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <section className="home">
       <SocialDesk />
       <Hero />
+      <DesignerUX />
     </section>
   );
 };
