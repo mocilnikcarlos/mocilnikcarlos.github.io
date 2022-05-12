@@ -1,0 +1,30 @@
+{"dataCardUx":[
+    {
+        "icon": "consultoria",
+        "alt": "Consultoria Cat Quantum",
+        "title": "Consultoría",
+        "content": "Encontrar los problemas integrando análisis del producto escuchando a los usuarios",
+        "id": 1
+    },
+    {
+        "icon": "ideacion",
+        "alt": "Ideacion Cat Quantum",
+        "title": "Ideación",
+        "content": "Incluir las soluciones con herramientas de UX. Sitemap, Wireframes, User Flows",
+        "id": 2
+    },
+    {
+        "icon": "prototipado",
+        "alt": "Prototipado Cat Quantum",
+        "title": "Prototipado",
+        "content": "La parte visual del proyecto haciéndose presencia la UI. Atraer al usuario con un diseño",
+        "id": 3
+    },
+    {
+        "icon": "testing",
+        "alt": "Testing Cat Quantum",
+        "title": "Testing",
+        "content": "La única manera de mejorar un producto es integrar medición y análisis con datos reales.",
+        "id": 4
+    }
+]}

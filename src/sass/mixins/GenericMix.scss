@@ -1,4 +1,5 @@
 //All mixins generic
+@import "../style/StyleProyect.scss";
 
 //Header
 @mixin header {
@@ -21,4 +22,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@mixin textWeb {
+    font-size: 18px;
+    font-weight: $light;
+    font-family: $text;
+    color: $grey;
+    line-height: 2;
+}
+
+@mixin textCard {
+    font-size: 16px;
+    font-weight: $light;
+    font-family: $text;
+    color: $white;
 }

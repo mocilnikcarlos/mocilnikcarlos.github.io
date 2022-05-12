@@ -1,0 +1,28 @@
+@import "../../sass/Style.scss";
+
+.designer-ux{
+    background-color: $background;
+    height: 100vh;
+}
+
+.box-designer-ux{
+    @include vw(70%);
+    padding-top: 177px;
+    padding-bottom: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-web{
+    @include textWeb();
+}
+
+.box-cardsux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
