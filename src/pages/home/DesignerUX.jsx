@@ -2,12 +2,14 @@ import React from "react";
 import CardDesignerUX from "../../components/common/cards/CardDesignerUX";
 import { TitleWeb1 } from "../../components/common/pages/TitleWeb";
 import dataCardUx from "../../json/cardDesignerUX.json";
+import useRefScroll from "../../hooks/useScrollShow";
 import "./DesignerUX.scss";
 
 const DesignerUX = () => {
+  const { refScroll, elementIsVisible } = useRefScroll();
   return (
     <div className="designer-ux">
-      <article className="box-designer-ux cta hide show">
+      <article className="box-designer-ux">
         <TitleWeb1 titleweb="El trabajo de un Designer UX" />
         <p className="text-web">
           En pocas palabras, un diseñador UX está encargado de lograr generar la
@@ -18,7 +20,10 @@ const DesignerUX = () => {
           requisitos, ya que será este el propósito que se verá reflejado en el
           usuario.
         </p>
-        <div className="box-cardsux">
+        <div
+          ref={refScroll}
+          className={`box-cardsux hide ${elementIsVisible && "show"}`}
+        >
           {dataCardUx.dataCardUx.map((el) => (
             <CardDesignerUX key={el.id} CardUx={el} />
           ))}
