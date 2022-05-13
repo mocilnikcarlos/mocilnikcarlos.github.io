@@ -1,8 +1,8 @@
 import React from "react";
-import Logo from "../../../assets/svg/Logo.svg";
+import Logo from "../../assets/svg/Logo.svg";
 import NavbarHeader from "./NavbarHeader";
 import "./Header.scss";
-import useHeader from "../../../hooks/useHeader";
+import useHeader from "../../hooks/useHeader";
 
 const Header = () => {
   const navColor = useHeader();

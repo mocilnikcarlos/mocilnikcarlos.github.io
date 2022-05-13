@@ -1,5 +1,5 @@
 import React from "react";
-import SocialDesk from "../../components/common/pages/SocialDesk";
+import SocialDesk from "../../components/pages/SocialDesk";
 import DesignerUX from "./DesignerUX";
 import Hero from "./Hero";
 

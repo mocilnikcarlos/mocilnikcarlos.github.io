@@ -1,5 +1,5 @@
 import React from "react";
-import socialDeskMap from "../../../json/socialDeskMap.json";
+import socialDeskMap from "../../json/socialDeskMap.json";
 import LinkSocialDesk from "./LinkSocialDesk";
 import { LineColumnSocial } from "../fig/LineColumn";
 import "./SocialDesk.scss";

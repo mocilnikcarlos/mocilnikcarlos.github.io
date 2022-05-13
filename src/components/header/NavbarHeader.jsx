@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarMap from "../../../json/navbarMap.json";
+import NavbarMap from "../../json/navbarMap.json";
 import ListNavbar from "./LinkNavbar";
 import "./Header.scss";
 
