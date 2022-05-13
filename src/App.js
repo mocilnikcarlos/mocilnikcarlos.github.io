@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/common/header/Header";
+import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import "./sass/Style.scss";
 

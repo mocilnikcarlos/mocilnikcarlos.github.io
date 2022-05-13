@@ -8,7 +8,7 @@ const CardDesignerUX = (props) => {
         <div className="box-border-gradient box-shadow-gradient">
           <div className="box-shadow-gradient-shadow"></div>
           <img
-            src={require("../../../assets/svg/" + props.CardUx.icon + ".svg")}
+            src={require("../../assets/svg/" + props.CardUx.icon + ".svg")}
             alt={props.CardUx.alt}
             className="icon"
           />

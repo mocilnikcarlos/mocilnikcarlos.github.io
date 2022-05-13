@@ -12,7 +12,7 @@ const LinkSocialDesk = (props) => {
       >
         <span className="img">
           <img
-            src={require("../../../assets/svg/iconsocial" +
+            src={require("../../assets/svg/iconsocial" +
               props.social.img +
               ".svg")}
             alt="{props.social.name}"

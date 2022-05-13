@@ -1,6 +1,6 @@
 import React from "react";
-import CardDesignerUX from "../../components/common/cards/CardDesignerUX";
-import { TitleWeb1 } from "../../components/common/pages/TitleWeb";
+import CardDesignerUX from "../../components/cards/CardDesignerUX";
+import { TitleWeb1 } from "../../components/pages/TitleWeb";
 import dataCardUx from "../../json/cardDesignerUX.json";
 import useRefScroll from "../../hooks/useScrollShow";
 import "./DesignerUX.scss";

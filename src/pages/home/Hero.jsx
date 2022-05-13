@@ -1,7 +1,7 @@
 import React from "react";
-import Designer from "../../components/common/pages/home/Designer";
-import EpigraphName from "../../components/common/pages/home/EpigraphName";
-import { City, Work } from "../../components/common/pages/home/SubtitleHero";
+import Designer from "../../components/pages/home/Designer";
+import EpigraphName from "../../components/pages/home/EpigraphName";
+import { City, Work } from "../../components/pages/home/SubtitleHero";
 import "./Hero.scss";
 
 const Hero = (props) => {
