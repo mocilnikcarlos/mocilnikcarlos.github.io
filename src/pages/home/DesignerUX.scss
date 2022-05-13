@@ -26,3 +26,13 @@
     flex-wrap: wrap;
     gap: 40px;
 }
+
+.hide{
+    opacity: 0;
+    transition: all 600ms ease-in;
+}
+
+.show{
+    opacity: 1;
+    transition: all 600ms ease-in;
+}
