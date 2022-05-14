@@ -8,10 +8,10 @@ import "./DesignerUX.scss";
 const DesignerUX = () => {
   const { refScroll, elementIsVisible } = useRefScroll();
   return (
-    <div className="designer-ux">
-      <article className="box-designer-ux">
+    <section className="section-designerux">
+      <article className="article-designerux">
         <TitleWeb1 titleweb="El trabajo de un Designer UX" />
-        <p className="text-web">
+        <p className="textweb">
           En pocas palabras, un diseñador UX está encargado de lograr generar la
           mejor experiencia para el usuario. Tan simple y tan complejo a la vez,
           se necesitan de muchas herramientas, desde psicológicas hasta
@@ -22,13 +22,13 @@ const DesignerUX = () => {
         </p>
         <div
           ref={refScroll}
-          className={`box-cardsux hide ${elementIsVisible && "show"}`}
+          className={`box-cardsdesignerux hide ${elementIsVisible && "show"}`}
         >
           {dataCardDesigUx.dataCardDesigUx.map((el) => (
             <CardDesignerUX key={el.id} CardDesigUx={el} />
           ))}
         </div>
-        <p className="text-web">
+        <p className="textweb">
           Para entrar en detalles de como se logra una buena experiencia de
           usuario primero hay que entender que este proceso es un bucle y que no
           acaba una vez obtenido un resultado. La sociedad avanza y con ella las
@@ -37,7 +37,7 @@ const DesignerUX = () => {
           tráfico.
         </p>
       </article>
-    </div>
+    </section>
   );
 };
 

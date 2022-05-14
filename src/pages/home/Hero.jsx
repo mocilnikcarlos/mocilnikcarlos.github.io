@@ -6,8 +6,8 @@ import "./Hero.scss";
 
 const Hero = (props) => {
   return (
-    <div className="hero">
-      <div className="box-hero">
+    <section className="section-hero">
+      <div className="content-hero">
         <EpigraphName />
 
         <Designer />
@@ -17,7 +17,7 @@ const Hero = (props) => {
           <Work title="Freelancer" text="Designer and Dev. Front-End" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

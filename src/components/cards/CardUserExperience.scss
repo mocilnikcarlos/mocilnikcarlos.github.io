@@ -99,15 +99,9 @@
 }
 
 .title-carduserexperience{
-    font-size: 24px;
-    font-family: $title;
-    font-weight: $medium;
-    color: $white;
+    @include titleCard(24px, $white, $medium);
 }
 
 .text-carduserexperience{
-    font-size: 16px;
-    font-family: $text;
-    font-weight: $light;
-    color: $grey;
+    @include textCard(16px, $grey)
 }

@@ -6,10 +6,10 @@ import "./UserExperience.scss";
 
 const UserExperience = () => {
   return (
-    <div className="userexperience">
-      <article className="box-userexperience">
+    <section className="section-userexperience">
+      <article className="article-userexperience">
         <TitleWeb2 titleweb="Mejorando la experiencia de usuario" />
-        <div className="box-cardsuserx">
+        <div className="box-cardsuserexperience">
           {dataCardUx.dataCardUx.map((el) => (
             <CardUserExperience key={el.id} CardUx={el} />
           ))}
@@ -19,7 +19,7 @@ const UserExperience = () => {
           <div className="backcurve1"></div>
         </div>
       </article>
-    </div>
+    </section>
   );
 };
 

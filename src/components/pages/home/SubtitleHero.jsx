@@ -5,11 +5,11 @@ import "./SubtitleHero.scss";
 //* Subtitulo Ciudad *
 const City = (props) => {
   return (
-    <div className="subtitle">
+    <div className="box-subtitle">
       <LineColumn />
-      <div className="subtitle-information">
-        <span className="subtitle-title">{props.title}</span>
-        <span className="subtitle-text">{props.text}</span>
+      <div className="information-subtitle">
+        <span className="title-subtitle">{props.title}</span>
+        <span className="text-subtitle">{props.text}</span>
       </div>
     </div>
   );
@@ -18,11 +18,11 @@ const City = (props) => {
 //* Subtitulo Trabajo *
 const Work = (props) => {
   return (
-    <div className="subtitle">
+    <div className="box-subtitle">
       <LineColumn />
-      <div className="subtitle-information">
-        <span className="subtitle-title">{props.title}</span>
-        <span className="subtitle-text">{props.text}</span>
+      <div className="information-subtitle">
+        <span className="title-subtitle">{props.title}</span>
+        <span className="text-subtitle">{props.text}</span>
       </div>
     </div>
   );

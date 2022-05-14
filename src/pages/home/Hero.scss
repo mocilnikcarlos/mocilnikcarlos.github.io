@@ -1,11 +1,11 @@
 @import "../../sass/Style.scss";
 
-.hero{
+.section-hero{
     height: 100vh;
     @include bgImg(bghero);
 }
 
-.box-hero{
+.content-hero{
     @include vw(82%);
     height: inherit;
     display: flex;
