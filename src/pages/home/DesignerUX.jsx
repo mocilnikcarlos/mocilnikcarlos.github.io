@@ -1,7 +1,7 @@
 import React from "react";
 import CardDesignerUX from "../../components/cards/CardDesignerUX";
 import { TitleWeb1 } from "../../components/pages/TitleWeb";
-import dataCardUx from "../../json/cardDesignerUX.json";
+import dataCardDesigUx from "../../json/cardDesignerUX.json";
 import useRefScroll from "../../hooks/useScrollShow";
 import "./DesignerUX.scss";
 
@@ -24,8 +24,8 @@ const DesignerUX = () => {
           ref={refScroll}
           className={`box-cardsux hide ${elementIsVisible && "show"}`}
         >
-          {dataCardUx.dataCardUx.map((el) => (
-            <CardDesignerUX key={el.id} CardUx={el} />
+          {dataCardDesigUx.dataCardDesigUx.map((el) => (
+            <CardDesignerUX key={el.id} CardDesigUx={el} />
           ))}
         </div>
         <p className="text-web">

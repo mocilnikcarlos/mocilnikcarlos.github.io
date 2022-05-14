@@ -1,0 +1,23 @@
+{"dataCardUx":[
+    {
+        "icon": "userinterface",
+        "alt": "Diseño de interfaz",
+        "title": "User Interface",
+        "content": "Diseños creativos, modernos a necesidad del producto. Desde sitios web, e-commerce, dashboard, etc",
+        "id": 1
+    },
+    {
+        "icon": "uxwriting",
+        "alt": "UX Writing",
+        "title": "UX Writing",
+        "content": "Llega a tus usuarios con un diálogo coherente, cohesivo y atractivo. Capturalos y haz que tu marca sea fácil de recordar.",
+        "id": 2
+    },
+    {
+        "icon": "uxresearch",
+        "alt": "UX Research",
+        "title": "UX Research",
+        "content": "Búsqueda acorde a la necesidad de los usuarios, estudio exhaustivo de la competencia para brindar lo mismo y mejor de lo que ya está en el mercado.",
+        "id": 3
+    }
+]}

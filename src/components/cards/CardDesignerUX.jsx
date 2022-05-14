@@ -8,17 +8,17 @@ const CardDesignerUX = (props) => {
         <div className="box-border-gradient box-shadow-gradient">
           <div className="box-shadow-gradient-shadow"></div>
           <img
-            src={require("../../assets/svg/" + props.CardUx.icon + ".svg")}
-            alt={props.CardUx.alt}
+            src={require("../../assets/svg/" + props.CardDesigUx.icon + ".svg")}
+            alt={props.CardDesigUx.alt}
             className="icon"
           />
         </div>
 
         <div className="text">
-          <p className="title">{props.CardUx.title}</p>
+          <p className="title">{props.CardDesigUx.title}</p>
         </div>
         <div className="text1">
-          <p className="title1">{props.CardUx.content}</p>
+          <p className="title1">{props.CardDesigUx.content}</p>
         </div>
       </div>
     </div>
