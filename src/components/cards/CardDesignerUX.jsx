@@ -3,22 +3,22 @@ import "./CardDesignerUX.scss";
 
 const CardDesignerUX = (props) => {
   return (
-    <div className="card-designerux">
-      <div className="box-card-designerux">
-        <div className="box-border-gradient box-shadow-gradient">
-          <div className="box-shadow-gradient-shadow"></div>
+    <div className="box-carddesignerux">
+      <div className="content-carddesignerux">
+        <div className="border-gradient shadow-gradient">
+          <div className="shadow-gradient-shadow"></div>
           <img
             src={require("../../assets/svg/" + props.CardDesigUx.icon + ".svg")}
             alt={props.CardDesigUx.alt}
-            className="icon"
+            className="icon-carddesignerux"
           />
         </div>
 
-        <div className="text">
-          <p className="title">{props.CardDesigUx.title}</p>
+        <div className="box-text">
+          <p className="title-carddesignerux">{props.CardDesigUx.title}</p>
         </div>
-        <div className="text1">
-          <p className="title1">{props.CardDesigUx.content}</p>
+        <div className="box-text1">
+          <p className="text-carddesignerux">{props.CardDesigUx.content}</p>
         </div>
       </div>
     </div>

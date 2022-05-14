@@ -11,7 +11,7 @@ $changeBackground: (
     display: flex;
     transition: all 200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    &:hover .tooltip{
+    &:hover .tooltip-socialdesk{
         display: block;
         pointer-events: auto;
     }
@@ -28,7 +28,7 @@ $changeBackground: (
     box-shadow: $shadowBlack;
 }
 
-.tooltip{
+.tooltip-socialdesk{
     display: none;
     position: absolute;
     width: 85.97px;

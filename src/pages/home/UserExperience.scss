@@ -1,12 +1,12 @@
 @import "../../sass/Style.scss";
 
-.userexperience{
+.section-userexperience{
     background-color: $background;
     height: 100vh;
     overflow: hidden;
 }
 
-.box-userexperience{
+.article-userexperience{
     @include vw(70%);
     padding-top: 177px;
     height: 100%;
@@ -15,13 +15,13 @@
     justify-content: space-between;
 }
 
-.box-cardsuserx{
+.box-cardsuserexperience{
     display: flex;
     justify-content: center;
     height: 274px;
     gap: 61.5px;
 
-    &.box-cardsuserx :nth-child(2){
+    &.box-cardsuserexperience :nth-child(2){
         flex: 0 1 auto;
         align-self: flex-end;
     }

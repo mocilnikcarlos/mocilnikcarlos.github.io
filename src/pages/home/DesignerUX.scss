@@ -1,11 +1,11 @@
 @import "../../sass/Style.scss";
 
-.designer-ux{
+.section-designerux{
     background-color: $background;
     height: 100vh;
 }
 
-.box-designer-ux{
+.article-designerux{
     @include vw(70%);
     padding-top: 177px;
     padding-bottom: 50px;
@@ -15,24 +15,10 @@
     justify-content: space-between;
 }
 
-.text-web{
-    @include textWeb();
-}
-
-.box-cardsux{
+.box-cardsdesignerux{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-}
-
-.hide{
-    opacity: 0;
-    transition: all 600ms ease-in;
-}
-
-.show{
-    opacity: 1;
-    transition: all 600ms ease-in;
 }

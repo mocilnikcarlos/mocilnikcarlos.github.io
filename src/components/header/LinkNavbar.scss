@@ -10,7 +10,7 @@
 }
 
 /* Hide extra text */
-.mask {
+.mask-navbar {
     position: relative;
     height: 20px;
     overflow: hidden;
@@ -20,44 +20,33 @@
     transition: transform 0.4s ease;
 }
 
-.title {
+.block-fx {
     display: block;
-    font-size: 20px;
     line-height: 20px;
     user-select: none;
     transition: transform 0.4s ease;
 }
 
-.link-title1 {
+.link-visible {
     transform-origin: right center;
 }
 
-.link-title2 {
+.link-hide {
     transform-origin: left center;
     transform: rotate(20deg);
 }
 
 /* Hover Action*/
-
 /* Move up two texts (20px = font-size) */
 .linknav:hover .link-container {
     transform: translateY(-20px);
 }
 
 /* Rotate texts a little bit */
-.linknav:hover .link-title1 {
+.linknav:hover .link-visible {
     transform: rotate(20deg);
 }
 
-.linknav:hover .link-title2 {
+.linknav:hover .link-hide {
     transform: rotate(0);
-}
-
-/* Move arrows to right */
-.linknav:hover .icon:first-child {
-    transform: translate(40px);
-}
-
-.linknav:hover .icon:nth-child(2) {
-    transform: translate(0px);
 }

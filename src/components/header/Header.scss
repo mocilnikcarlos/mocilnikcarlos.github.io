@@ -1,7 +1,6 @@
 @import "../../sass/Style.scss";
 
-.header{
-    background: transparent;
+.box-header{
     height: 100px;
     width: 100vw;
     display: flex;
@@ -10,7 +9,7 @@
     z-index: 100;
 }
 
-.box-header{
+.content-header{
     @include header;
     justify-content: space-between;
 }
@@ -20,8 +19,13 @@
     gap: 47px;
 }
 
-.active{
+.scroll-active{
     background: $background;
     box-shadow: 0 3px 10px $dark;
+    transition: all 200ms ease-in-out;
+}
+
+.scroll-inactive{
+    background: transparent;
     transition: all 200ms ease-in-out;
 }

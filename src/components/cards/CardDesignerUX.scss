@@ -1,6 +1,6 @@
 @import "../../sass/Style.scss";
 
-.card-designerux{
+.box-carddesignerux{
     width: 300px;
     height: 220px;
     display: flex;
@@ -9,10 +9,10 @@
 }
 
 ////////// CONTENEDOR PADRE DEL CIRCULO //////////
-.box-card-designerux {
+.content-carddesignerux {
     position: absolute;
 
-    &:hover .box-border-gradient {
+    &:hover .border-gradient {
 
         &::after,
         &::before {
@@ -23,29 +23,29 @@
         }
     }
 
-    &:hover .box-shadow-gradient-shadow {
+    &:hover .shadow-gradient-shadow {
         border-radius: 12px;
         transition: all 500ms ease-in-out;
         width: 300px;
         height: 220px;
     }
 
-    &:hover .icon {
+    &:hover .icon-carddesignerux {
         transform: translateY(-48px) scale(1);
     }
 
-    &:hover .text {
+    &:hover .box-text {
         opacity: 0;
         transform: translateY(-4px) scale(.8);
     }
 
-    &:hover .text1 {
+    &:hover .box-text1 {
         opacity: 1;
     }
 }
 
 ////////// BORDER GRADIENT //////////
-.box-border-gradient {
+.border-gradient {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -83,7 +83,7 @@
 }
 
 ////////// SHADOW GRADIENT //////////
-.box-shadow-gradient {
+.shadow-gradient {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -108,7 +108,7 @@
 }
 
 
-.icon {
+.icon-carddesignerux {
     width: 37px;
     height: 37px;
     position: relative;
@@ -120,28 +120,26 @@
 
 
 ////////// TEXTOS TITULO Y CONTENIDO CARD //////////
-.title {
+.title-carddesignerux {
     position: relative;
+    @include textCard(24px);
 }
 
-.title1 {
+.text-carddesignerux {
     position: relative;
+    @include textCard();
 }
 
-.text {
+.box-text {
     position: relative;
     top: 110px;
     text-align: center;
     transition: all 400ms ease-in-out;
     transition-delay: 320ms;
-    font-size: 24px;
-    font-family: $text;
-    font-weight: $light;
-    color: $white;
     user-select: none;
 }
 
-.text1 {
+.box-text1 {
     position: relative;
     width: 257px;
     top: 20px;
@@ -149,9 +147,5 @@
     opacity: 0;
     transition: all 300ms ease-in-out;
     transition-delay: 320ms;
-    font-size: 16px;
-    font-family: $text;
-    font-weight: $light;
-    color: $white;
     user-select: none;
 }

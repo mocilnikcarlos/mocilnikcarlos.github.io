@@ -8,8 +8,10 @@ const Header = () => {
   const navColor = useHeader();
 
   return (
-    <header className={`header ${navColor && "active"}`}>
-      <div className="box-header">
+    <header
+      className={`box-header ${navColor ? "scroll-active" : "scroll-inactive"}`}
+    >
+      <div className="content-header">
         <div className="logo">
           <img src={Logo} alt="Logo" className="logo-header" />
         </div>

@@ -19,7 +19,9 @@ const LinkSocialDesk = (props) => {
           />
         </span>
       </a>
-      <span className={`tooltip ${props.social.tag}`}>{props.social.name}</span>
+      <span className={`tooltip-socialdesk ${props.social.tag}`}>
+        {props.social.name}
+      </span>
     </li>
   );
 };

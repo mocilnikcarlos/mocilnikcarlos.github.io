@@ -4,7 +4,7 @@ import "./EpigraphName.scss";
 
 const EpigraphName = () => {
   return (
-    <div className="my-name">
+    <div className="box-myname">
       <LineRow />
       <h3 className="name-epigraph">Yo soy Carlos Alberto Mocilnik</h3>
     </div>

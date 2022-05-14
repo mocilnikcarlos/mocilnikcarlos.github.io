@@ -7,7 +7,7 @@ import "./SocialDesk.scss";
 const SocialDesk = () => {
   return (
     <div className="box-socialdesk">
-      <nav className="socialdesk">
+      <nav className="nav-socialdesk">
         <ul className="list-socialdesk">
           {socialDeskMap.socialDesk.map((el) => (
             <LinkSocialDesk key={el.id} social={el} />
