@@ -1,0 +1,166 @@
+@import "../../sass/Style.scss";
+
+$imgCards:(
+    travelingcard: "travelingcard",
+    musictunecard: "musictunecard",
+    travelingcardmobile: "travelingcardmobile"
+);
+
+/////////// IMAGE & EFFECT ///////////
+.box-cardprofessionalpassionup{
+    width: 630px;
+    height: 465px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid $transparentWhite;
+}
+
+.box-cardprofessionalpassiondown{
+    width: 400px;
+    height: 487,91px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid $transparentWhite;
+}
+
+.content-cardprofessionalpassion{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &::before{
+        transition: all 500ms ease;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: $grey;
+        transform: scale(0);
+    }
+
+    &:hover:before {
+        opacity: .5;
+        transform: scale(1);
+    }
+
+    &::after {
+        transition: all 600ms ease 200ms;
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        right: 8px;
+        bottom: 8px;
+        border: 2px solid $grey;
+        background: $background;
+        opacity: 0;
+        transform: scale(0);
+        border-radius: 12px;
+    }
+
+    &:hover:after {
+        opacity: .3;
+        transform: scale(1);
+    }
+
+    &:hover .img-cardprofessionalpassion {
+        transition: all 200ms ease-in-out;
+        filter: blur(20px);
+        transition-delay: 500ms;
+    }
+
+    &:hover .linkeye-cardprofessionalpassion {
+        opacity: 1;
+        transition: all 200ms ease-in-out;
+        transition-delay: 500ms;
+    }
+
+    &:nth-child(1) .boxtext-cardprofessionalpassion{
+        flex: 1 1 auto;
+        align-self: flex-end;
+        width: 100%;
+        padding-left: 47px;
+        padding-bottom: 34.9px;
+        bottom: -100%;
+        transition: all 500ms ease-in-out;
+        transition-delay: 300ms;
+    }
+
+    &:hover:nth-child(1) .boxtext-cardprofessionalpassion{
+        bottom: 0;
+        transition: all 500ms ease;
+        transition-delay: 300ms;
+    }
+}
+
+@each $key, $value in $imgCards {
+    .#{$key}{
+        $url: "../../assets/image/#{$value}.png";
+        background-image: url($url);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+.img-cardprofessionalpassion{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+    transition-delay: 300ms;
+    z-index: 0;
+}
+
+
+/////////// EYE CARD ///////////
+.backeye-cardprofessionalpassion{
+    position: absolute;
+    background: $background;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    opacity: .3;
+}
+
+.linkeye-cardprofessionalpassion{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: all 500ms ease;
+    transition-delay: 300ms;
+    opacity: 0;
+}
+
+.eye-cardprofessionalpassion{
+    position: absolute;
+}
+
+/////////// TEXT CARD ///////////
+
+.boxtext-cardprofessionalpassion{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-cardprofessionalpassion{
+    @include titleCard(20px,$white, $medium);
+    opacity: .72;
+}
+
+.text-cardprofessionalpassion{
+    @include textCard(20px, $white, $regular);
+    opacity: .5;
+}

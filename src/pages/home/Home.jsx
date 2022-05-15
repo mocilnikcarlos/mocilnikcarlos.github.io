@@ -3,6 +3,7 @@ import SocialDesk from "../../components/pages/SocialDesk";
 import Hero from "./Hero";
 import DesignerUX from "./DesignerUX";
 import UserExperience from "./UserExperience";
+import ProfessionalPassion from "./ProfessionalPassion";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <DesignerUX />
       <UserExperience />
+      <ProfessionalPassion />
     </section>
   );
 };

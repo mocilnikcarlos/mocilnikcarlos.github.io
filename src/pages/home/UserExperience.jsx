@@ -8,7 +8,7 @@ const UserExperience = () => {
   return (
     <section className="section-userexperience">
       <article className="article-userexperience">
-        <TitleWeb2 titleweb="Mejorando la experiencia de usuario" />
+        <TitleWeb2 titleweb="Mejorando la experiencia del usuario" />
         <div className="box-cardsuserexperience">
           {dataCardUx.dataCardUx.map((el) => (
             <CardUserExperience key={el.id} CardUx={el} />

@@ -52,9 +52,9 @@
     color: $color;
 }
 
-@mixin textCard($size: 16px, $color: $white) {
+@mixin textCard($size: 16px, $color: $white, $weight: $light) {
     font-size: $size;
-    font-weight: $light;
+    font-weight: $weight;
     font-family: $text;
     color: $color;
 }
