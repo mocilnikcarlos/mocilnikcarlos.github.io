@@ -1,0 +1,45 @@
+{"getProfessional":[
+    {
+        "dataProfessionalUp": [
+            {
+                "id": 1,
+                "img": "travelingcard",
+                "title": "title",
+                "content": "content",
+                "url": "http://www.google.com"
+            },
+            {
+                "id": 2,
+                "img": "musictunecard",
+                "title": "title",
+                "content": "content",
+                "url": "http://www.google.com"
+            }
+        ]
+    },
+    {
+        "dataProfessionalDown": [
+            {
+                "id": 1,
+                "img": "travelingcardmobile",
+                "title": "title",
+                "content": "content",
+                "url": "http://www.google.com"
+            },
+            {
+                "id": 2,
+                "img": "travelingcardmobile",
+                "title": "title",
+                "content": "content",
+                "url": "http://www.google.com"
+            },
+            {
+                "id": 2,
+                "img": "travelingcardmobile",
+                "title": "title",
+                "content": "content",
+                "url": "http://www.google.com"
+            }
+        ]
+    }
+]}
