@@ -13,7 +13,12 @@ const CardProfessionalPassionUp = (props) => {
           className="linkeye-cardprofessionalpassion"
         >
           <div className="backeye-cardprofessionalpassion"></div>
-          <img src={eyeview} alt="" className="eye-cardprofessionalpassion" />
+          <img
+            loading="lazy"
+            src={eyeview}
+            alt=""
+            className="eye-cardprofessionalpassion"
+          />
         </a>
         <div
           className={`img-cardprofessionalpassion ${props.Professional.img}`}
