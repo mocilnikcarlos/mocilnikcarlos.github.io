@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import DesignerUX from "./DesignerUX";
 import UserExperience from "./UserExperience";
 import ProfessionalPassion from "./ProfessionalPassion";
+import Contactme from "./Contactme";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <DesignerUX />
       <UserExperience />
       <ProfessionalPassion />
+      <Contactme />
     </section>
   );
 };

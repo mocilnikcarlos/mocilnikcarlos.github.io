@@ -8,6 +8,7 @@ const CardDesignerUX = (props) => {
         <div className="border-gradient shadow-gradient">
           <div className="shadow-gradient-shadow"></div>
           <img
+            loading="lazy"
             src={require("../../assets/svg/" + props.CardDesigUx.icon + ".svg")}
             alt={props.CardDesigUx.alt}
             className="icon-carddesignerux"

@@ -11,6 +11,7 @@ const CardUserExperience = (props) => {
       <div className="content-carduserexperience">
         <div className="img-title-carduserexperience">
           <img
+            loading="lazy"
             src={require("../../assets/svg/" + props.CardUx.icon + ".svg")}
             alt={props.CardUx.alt}
             className="icon-carduserexperience"
