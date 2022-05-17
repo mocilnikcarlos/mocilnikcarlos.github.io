@@ -1,0 +1,44 @@
+{"getSocialFooter":[
+    {
+        "id": 1,
+        "src": "iconbehancefooter",
+        "name": "carlosmocilni",
+        "url": "https://www.google.com/",
+        "tag": "be"
+    },
+    {
+        "id": 2,
+        "src": "iconlinkedinfooter",
+        "name": "carlosmocilnik",
+        "url": "https://www.google.com/",
+        "tag": "in"
+    },
+    {
+        "id": 3,
+        "src": "icongithubfooter",
+        "name": "carlosmocilnik",
+        "url": "https://www.google.com/",
+        "tag": "git"
+    },
+    {
+        "id": 4,
+        "src": "iconwhatsappfooter",
+        "name": "3487 345472",
+        "url": "https://www.google.com/",
+        "tag": "whats"
+    },
+    {
+        "id": 5,
+        "src": "icongmailfooter",
+        "name": "carlosmocilnik",
+        "url": "https://www.google.com/",
+        "tag": "gmail"
+    },
+    {
+        "id": 6,
+        "src": "iconfacebookfooter",
+        "name": "Carlos Mocilnik",
+        "url": "https://www.google.com/",
+        "tag": "face"
+    }
+]}
