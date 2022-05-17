@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const useHeader = () => {
-  const [navColor, setnavColor] = useState(false);
+  const [navColor, setnavColor] = useState(true);
 
   const changeBackground = () => {
     window.pageYOffset > 5 ? setnavColor(true) : setnavColor(false);
