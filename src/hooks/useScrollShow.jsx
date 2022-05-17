@@ -7,7 +7,6 @@ const useScrollShow = () => {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
-      console.log("entry", entry);
       setElementIsVisible(entry.isIntersecting);
     });
 
