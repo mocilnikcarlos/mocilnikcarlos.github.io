@@ -36,14 +36,16 @@
     &:focus {
         border: 2px solid $blue;
         box-shadow: $shadowBlue;
-        transition: all 200ms ease-in;background: transparent;
+        transition: all 200ms ease-in;
+        background: transparent;
     }
 
     &:focus~.label,
     &:valid~.label{
         top: -30px;
         color: $white;
-        transition: all 200ms ease-in;background: transparent;
+        transition: all 200ms ease-in;
+        background: transparent;
     }
 }
 

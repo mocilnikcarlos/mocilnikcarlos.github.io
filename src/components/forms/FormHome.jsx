@@ -2,6 +2,7 @@ import React from "react";
 import handleForm from "../../hooks/useForm";
 import { InputName, InputEmail, TextArea } from "./Inputs";
 import "./FormHome.scss";
+import BtnWeb from "../common/BtnWeb";
 
 const FormHome = () => {
   const { handleSubmit } = handleForm();
@@ -16,9 +17,7 @@ const FormHome = () => {
           <TextArea placeholder="Deja tu mensaje*" />
         </div>
       </div>
-      <button type="submit" className="btn-form">
-        Enviar mensaje
-      </button>
+      <BtnWeb type="submit" content="Enviar mensaje" />
     </form>
   );
 };
