@@ -1,5 +1,8 @@
 import React from "react";
-import { CardProfessionalPassionUp } from "../../components/cards/CardProfessionalPassion";
+import {
+  CardProfessionalPassionDown,
+  CardProfessionalPassionUp,
+} from "../../components/cards/CardProfessionalPassion";
 import { TitleWeb1 } from "../../components/pages/TitleWeb";
 import dataProfessional from "../../json/cardProfessionalPassion.json";
 import useRefScroll from "../../hooks/useScrollShow";
@@ -17,9 +20,8 @@ const ProfessionalPassion = () => {
         <TitleWeb1 titleweb="Pasión profesional" />
         <div
           ref={refScroll}
-          className={`box-cardsprofessionalpassion hide ${
-            elementIsVisible && "show"
-          }`}
+          className={`box-cardsprofessionalpassion hide ${elementIsVisible &&
+            "show"}`}
         >
           <div className="boxcards">
             {dataUp.dataProfessionalUp.map((el) => (
@@ -28,7 +30,7 @@ const ProfessionalPassion = () => {
           </div>
           <div className="boxcards">
             {dataDown.dataProfessionalDown.map((el) => (
-              <CardProfessionalPassionUp key={el.id} Professional={el} />
+              <CardProfessionalPassionDown key={el.id} Professional={el} />
             ))}
           </div>
         </div>
