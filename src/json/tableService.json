@@ -1,0 +1,32 @@
+{"getRow":[
+    {
+        "id": 1,
+        "src": "searchtable",
+        "alt": "Search UX",
+        "content": "Metodologías de investigación con base en puntos cualitativos y cuantitativos, etnografía, estudios de usabilidad, focus group y más."
+    },
+    {
+        "id": 2,
+        "src": "usertable",
+        "alt": "Entrevista User",
+        "content": "Entrevista a usuarios para capturar las dolencias de cada uno acorde a la finalidad de la empresa."
+    },
+    {
+        "id": 3,
+        "src": "testingtable",
+        "alt": "A/B Testing",
+        "content": "A/B Testing acorde a las necesidades de la empresa, producto o servicio llevando a cabo soluciones reales."
+    },
+    {
+        "id": 4,
+        "src": "wireframetable",
+        "alt": "Wireframe Proyect",
+        "content": "Diseños de wireframe de baja y alta calidad de todo el sitio web o aplicación."
+    },
+    {
+        "id": 5,
+        "src": "prototypetable",
+        "alt": "Prototipado de proyecto UX/UI",
+        "content": "Prototipo de navegación. Simulación del recorrido de la web o aplicación."
+    }
+]}

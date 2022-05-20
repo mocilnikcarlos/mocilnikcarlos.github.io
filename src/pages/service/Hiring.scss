@@ -1,0 +1,17 @@
+@import "../../sass/Style.scss";
+
+.box-hiring{
+    width: 400px;
+    height: fit-content;
+}
+
+.list-btns-hiring{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text-hiring{
+    @include textWeb();
+    margin-top: 40px;
+}
