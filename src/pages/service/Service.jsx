@@ -4,6 +4,8 @@ import "./Service.scss";
 import { TitleWeb1 } from "../../components/pages/TitleWeb";
 import Hiring from "./Hiring";
 import Explanation from "./Explanation";
+import InfoService from "./InfoService";
+import dataInforBanner from "../../json/cardBannerService.json";
 
 const Service = () => {
   return (
@@ -16,6 +18,14 @@ const Service = () => {
           <Explanation />
         </div>
       </article>
+
+      <div className="box-banner-service">
+        <div className="content-banner-service">
+          {dataInforBanner.getInforService.map((item) => (
+            <InfoService key={item.id} InforService={item} />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

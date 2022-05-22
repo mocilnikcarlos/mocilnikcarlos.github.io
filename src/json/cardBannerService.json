@@ -1,0 +1,23 @@
+{"getInforService": [
+    {
+        "id": 1,
+        "src": "functionbanner",
+        "alt": "Funcionalidad UX/UI Cat Quantum",
+        "title": "Funcionalidad",
+        "content": "Búsqueda equilibrada entre la funcionalidad del sitio con la excelente experiencia de usuario."
+    },
+    {
+        "id": 2,
+        "src": "usabilitybanner",
+        "alt": "Usabilidad UX/UI Cat Quantum",
+        "title": "Usabilidad",
+        "content": "Segmentación del proyecto para una navegación fácil e interactiva para el usuario."
+    },
+    {
+        "id": 3,
+        "src": "comunicationbanner",
+        "alt": "Comunicacion UX/UI Cat Quantum",
+        "title": "Comunicación",
+        "content": "Un dialogo coherente hará que el mensaje de tu marca sea bien comprendido por el usuario."
+    }
+]}
