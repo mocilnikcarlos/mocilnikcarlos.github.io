@@ -1,0 +1,26 @@
+@import "../../sass/Style.scss";
+
+.box-explanation{
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+}
+
+.epigraph-explanation{
+    font-size: 30px;
+    font-family: $text;
+    font-weight: $light;
+    color: $grey;
+}
+
+.title-explanation{
+    font-size: 50px;
+    font-family: $title;
+    font-weight: $medium;
+    color: $white;
+}
+
+.text-explanation{
+    margin-top: 38px;
+    @include textWeb();
+}

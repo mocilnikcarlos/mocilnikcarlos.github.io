@@ -1,0 +1,75 @@
+@import "../../sass/Style.scss";
+
+
+.box-table{
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right, $blue, $yellow, $red);
+        filter: blur(4px);
+        z-index: -1;
+    }
+}
+
+.header-table{
+    background: linear-gradient(to left top, $black, $backgroundLight);
+    width: 100%;
+    height: 80px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    gap: 100px;
+}
+
+.title-header-table{
+    font-size: 30px;
+    font-family: $text;
+    font-weight: $light;
+    color: $white;
+}
+
+.text-header-table{
+    font-size: 16px;
+    font-family: $text;
+    font-weight: $light;
+    color: $white;
+}
+
+.row-table{
+    background: $backgroundLight;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    gap: 49px;
+    transition: all 300ms ease-in-out;
+    &:nth-child(6){
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    
+    &:hover{
+        background: $background;
+        transition: all 300ms ease-in-out;
+    }
+}
+
+.text-row-table {
+    font-size: 16px;
+    font-family: $text;
+    font-weight: $light;
+    color: $grey;
+}
+

@@ -1,0 +1,32 @@
+@import "../../sass/Style.scss";
+
+.service {
+    background: $background;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.article-service{
+    @include vw(70%);
+    padding-top: 177px;
+}
+
+.hiring-explanation{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-banner-service {
+    background: linear-gradient(to right, $backgroundLight, $background);
+    width: 100%;
+    height: 230px;
+    margin-top: 165px;
+}
+
+.content-banner-service {
+    @include vw(70%);
+    height: 100%;
+    display: flex;
+    gap: 76px;
+}
