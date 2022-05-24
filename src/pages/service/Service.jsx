@@ -1,11 +1,11 @@
 import React from "react";
 import TableService from "./TableService";
-import "./Service.scss";
 import { TitleWeb1 } from "../../components/pages/TitleWeb";
 import Hiring from "./Hiring";
 import Explanation from "./Explanation";
 import InfoService from "./InfoService";
 import dataInforBanner from "../../json/cardBannerService.json";
+import "./Service.scss";
 
 const Service = () => {
   return (

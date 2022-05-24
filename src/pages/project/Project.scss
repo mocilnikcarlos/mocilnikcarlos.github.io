@@ -1,0 +1,12 @@
+@import "../../sass/Style.scss";
+
+.project {
+    background: $background;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.article-project {
+    @include vw(70%);
+    padding-top: 177px;
+}
