@@ -2,7 +2,7 @@
 
 .box-mypick{
     position: relative;
-    width: fit-content;
+    min-width: 625px;
     height: 703px;
     display: flex;
     flex-direction: column;

@@ -1,0 +1,20 @@
+@import "../../sass/Style.scss";
+
+.box-descriptionaboutme{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-descriptionaboutme{
+    font-size: 28px;
+    font-family: $title;
+    font-weight: $bold;
+    color: $white;
+    margin-bottom: 24px;
+}
+
+.list-icons-descriptionaboutme{
+    margin-top: 30px;
+    display: flex;
+    gap: 53.5px;
+}

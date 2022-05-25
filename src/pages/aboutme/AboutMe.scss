@@ -10,3 +10,10 @@
     @include vw(70%);
     padding-top: 177px;
 }
+
+.box-me{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin-top: 60px;
+}
