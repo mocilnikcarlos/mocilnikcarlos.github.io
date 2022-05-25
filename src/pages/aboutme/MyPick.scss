@@ -49,6 +49,7 @@
         top: 110%;
         transition: all 600ms ease;
         opacity: 0;
+        transition-delay: 400ms;
     }
 }
 
@@ -76,7 +77,6 @@
             #ffffff20);
         top: -100px;
         left: 0;
-        transition: all 600ms ease;
         filter: blur(10px);
     }
 }
