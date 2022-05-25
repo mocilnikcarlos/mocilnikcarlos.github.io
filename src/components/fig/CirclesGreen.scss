@@ -1,0 +1,20 @@
+@import "../../sass/Style.scss";
+
+.box-circle-green {
+    width: 60px;
+}
+
+.list-circle-green {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 100%;
+}
+
+.circle-green {
+    background-color: $colorWhatsapp;
+    opacity: .36;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
