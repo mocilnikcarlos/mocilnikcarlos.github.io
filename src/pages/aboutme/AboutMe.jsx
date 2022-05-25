@@ -1,6 +1,6 @@
 import React from "react";
-import "./AboutMe.scss";
 import MyPick from "./MyPick";
+import "./AboutMe.scss";
 
 const AboutMe = () => {
   return (
