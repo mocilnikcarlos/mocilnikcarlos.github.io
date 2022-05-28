@@ -1,0 +1,65 @@
+@import "../../../sass/Style.scss";
+
+.box-card-inputs{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-inputs{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 2px solid $transparentWhite;
+    box-shadow: $shadowBlack;
+
+    &::after{
+        position: absolute;
+        content: '';
+        background-color: $transparentBlack;
+        // opacity: .5;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+}
+
+.circlered{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: $red;
+    border-radius: 100%;
+    top: 10%;
+    left: 80%;
+    z-index: 1;
+    filter: blur(30px);
+
+    &::after{
+        position: absolute;
+        content: '';
+        width: 94px;
+        height: 94px;
+        border: 5px solid $red;
+        border-radius: 100%;
+        top: -20%;
+        left: -20%;
+        z-index: -1;
+    }
+
+    &::before{
+        position: absolute;
+        content: '';
+        border-radius: 100%;
+        width: 580px;
+        height: 580px;
+        background: linear-gradient(45deg, #FF215600, #FF215650);
+        opacity: .3;
+        z-index: 0;
+        top: -300%;
+        left: -800%;
+        filter: blur(50px);
+    }
+}

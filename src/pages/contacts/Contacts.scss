@@ -1,0 +1,12 @@
+@import "../../sass/Style.scss";
+
+.contact {
+    background: $background;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.article-contact {
+    @include vw(70%);
+    padding-top: 177px;
+}
