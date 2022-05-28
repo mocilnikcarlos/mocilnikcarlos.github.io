@@ -1,4 +1,4 @@
-@import "../../sass/Style.scss";
+@import "../../../sass/Style.scss";
 
 .box-mypick{
     position: relative;
@@ -54,7 +54,7 @@
 }
 
 .img-me{
-    background-image: url(../../assets/image/mypick.png);
+    background-image: url(../../../assets/image/mypick.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

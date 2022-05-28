@@ -5,7 +5,7 @@ const DescriptionCatQuantum = () => {
   return (
     <div className="box-descriptioncatquantum">
       <h3 className="title-catquantum">¿Qué es Cat Quantum?</h3>
-      <p className="textweb">
+      <p className="textweb mg-t">
         Es un proyecto personal para brindar mi servicio como Designer UX/UI.
         Nace con la idea de solucionar las necesidades de las empresas con la
         experiencia e interfaz de usuario y afianzar esos puntos de contactos
@@ -21,8 +21,8 @@ const DescriptionCatQuantum = () => {
         marcar una diferencia en los objetivos dentro de la historia de una
         marca.
       </p>
-      <h3 className="title-catquantum">¿Qué significa Cat Quantum?</h3>
-      <p className="textweb">
+      <h3 className="title-catquantum mg-t1">¿Qué significa Cat Quantum?</h3>
+      <p className="textweb mg-t">
         Es un pequeño guiño a la física cuántica y la paradoja del "Gato de
         Schrödinger". Más allá de la historia superficial que se conoce de esta
         idea, lo cierto es que esconde mucho más. Pero en asociación con el

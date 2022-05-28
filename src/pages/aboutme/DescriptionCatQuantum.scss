@@ -1,6 +1,8 @@
 @import "../../sass/Style.scss";
 
 .box-descriptioncatquantum{
+    display: flex;
+    flex-direction: column;
     width: fit-content;
 }
 
@@ -13,4 +15,12 @@
 
 .span-catquantum {
     font-weight: $medium;
+}
+
+.mg-t{
+    margin-top: 40px;
+}
+
+.mg-t1{
+    margin-top: 70px;
 }

@@ -1,11 +1,10 @@
 import React from "react";
-import MyPick from "./MyPick";
 import DescriptionAboutMe from "./DescriptionAboutMe";
 import { TitleWeb1 } from "../../components/pages/TitleWeb";
 import DescriptionCatQuantum from "./DescriptionCatQuantum";
-
+import MyPick from "../../components/pages/aboutme/MyPick";
+import ParticleQuantum from "../../components/pages/aboutme/ParticleQuantum";
 import "./AboutMe.scss";
-import ParticleQuantum from "./ParticleQuantum";
 
 const AboutMe = () => {
   return (

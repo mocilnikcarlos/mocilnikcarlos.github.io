@@ -58,3 +58,10 @@
     font-family: $text;
     color: $color;
 }
+
+// Position absolute
+@mixin positionTopLeft($top: 0, $left: 0) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}
