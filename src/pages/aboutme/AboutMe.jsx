@@ -5,6 +5,7 @@ import { TitleWeb1 } from "../../components/pages/TitleWeb";
 import DescriptionCatQuantum from "./DescriptionCatQuantum";
 
 import "./AboutMe.scss";
+import ParticleQuantum from "./ParticleQuantum";
 
 const AboutMe = () => {
   return (
@@ -17,6 +18,7 @@ const AboutMe = () => {
         </div>
         <div className="box-catquantum">
           <DescriptionCatQuantum />
+          <ParticleQuantum />
         </div>
       </article>
     </section>
