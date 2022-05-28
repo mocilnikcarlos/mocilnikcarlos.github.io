@@ -1,0 +1,27 @@
+{"getIconSoftware": [
+    {
+        "id": 1,
+        "src": "figmaicon",
+        "alt": "Figma Cat Quantum"
+    },
+    {
+        "id": 2,
+        "src": "adobexdicon",
+        "alt": "Adobe XD Cat Quantum"
+    },
+    {
+        "id": 3,
+        "src": "trelloicon",
+        "alt": "Trello Cat Quantum"
+    },
+    {
+        "id": 4,
+        "src": "jiraicon",
+        "alt": "Jira Cat Quantum"
+    },
+    {
+        "id": 5,
+        "src": "visualstudiocodeicon",
+        "alt": "VSCode Cat Quantum"
+    }
+]}

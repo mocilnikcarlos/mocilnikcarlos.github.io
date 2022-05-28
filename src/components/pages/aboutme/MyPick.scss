@@ -1,0 +1,82 @@
+@import "../../../sass/Style.scss";
+
+.box-mypick{
+    position: relative;
+    min-width: 625px;
+    height: 703px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line-red{
+    display: flex;
+    width: 464px;
+    height: 587px;
+    position: relative;
+    transform: rotateX(180deg);
+
+    &::after{
+        position: absolute;
+        content: '';
+        background-color: $red;
+        width: 3px;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    &::before{
+        position: absolute;
+        content: '';
+        background-color: $red;
+        width: 100%;
+        height: 3px;
+        top: 0px;
+    }
+}
+
+.img-mypick{
+    position: absolute;
+    left: 17px;
+    width: 608px;
+    height: 683px;
+    border: 2px solid $transparentWhite;
+    border-radius: 3px;
+    padding: 12px;
+
+    &:hover .img-me::before{
+        top: 110%;
+        transition: all 600ms ease;
+        opacity: 0;
+        transition-delay: 400ms;
+    }
+}
+
+.img-me{
+    background-image: url(../../../assets/image/mypick.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(to top,
+            #ffffff20,
+            #ffffff50,
+            #FFFFFF80,
+            #ffffff50,
+            #ffffff20);
+        top: -100px;
+        left: 0;
+        filter: blur(10px);
+    }
+}

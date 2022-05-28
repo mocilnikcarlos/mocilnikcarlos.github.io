@@ -1,0 +1,27 @@
+@import "../../sass/Style.scss";
+
+.aboutme {
+    background: $background;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.article-aboutme {
+    @include vw(70%);
+    padding-top: 177px;
+}
+
+.box-me{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    margin-top: 60px;
+}
+
+.box-catquantum{
+    display: flex;
+    padding-bottom: 91px;
+    margin-top: 117px;
+    gap: 57px;
+}
+

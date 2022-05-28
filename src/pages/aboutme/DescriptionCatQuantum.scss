@@ -1,0 +1,26 @@
+@import "../../sass/Style.scss";
+
+.box-descriptioncatquantum{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.title-catquantum {
+    font-size: 24px;
+    font-family: $title;
+    font-weight: 600;
+    color: $white;
+}
+
+.span-catquantum {
+    font-weight: $medium;
+}
+
+.mg-t{
+    margin-top: 40px;
+}
+
+.mg-t1{
+    margin-top: 70px;
+}
