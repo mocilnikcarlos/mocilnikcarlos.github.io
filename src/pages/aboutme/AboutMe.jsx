@@ -1,8 +1,10 @@
 import React from "react";
 import MyPick from "./MyPick";
 import DescriptionAboutMe from "./DescriptionAboutMe";
-import "./AboutMe.scss";
 import { TitleWeb1 } from "../../components/pages/TitleWeb";
+import DescriptionCatQuantum from "./DescriptionCatQuantum";
+
+import "./AboutMe.scss";
 
 const AboutMe = () => {
   return (
@@ -12,6 +14,9 @@ const AboutMe = () => {
         <div className="box-me">
           <MyPick />
           <DescriptionAboutMe />
+        </div>
+        <div className="box-catquantum">
+          <DescriptionCatQuantum />
         </div>
       </article>
     </section>
