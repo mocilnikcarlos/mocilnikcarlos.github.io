@@ -26,7 +26,7 @@ const InputEmail = (props) => {
         type={props.type}
         name="formHomeEmail"
         className="input"
-        required="required"
+        required={true}
         onChange={handleChange}
         value={form.formHomeEmail}
       />

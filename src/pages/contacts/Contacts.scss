@@ -9,4 +9,17 @@
 .article-contact {
     @include vw(70%);
     padding-top: 177px;
+    position: relative;
+}
+
+.card-inputs-contact{
+    background-color: rebeccapurple;
+}
+
+.box-inputs-contact{
+    background-color: rebeccapurple;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
 }
