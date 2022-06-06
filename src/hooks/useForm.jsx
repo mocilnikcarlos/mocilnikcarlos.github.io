@@ -5,6 +5,9 @@ const useForm = () => {
     formHomeName: "",
     formHomeEmail: "",
     formHomeDescription: "",
+    formOption1: "Consultoria UX/UI",
+    formOption2: "Contratacion por proyecto",
+    formOption3: "Contratacion directa",
   });
 
   const handleSubmit = (e) => {

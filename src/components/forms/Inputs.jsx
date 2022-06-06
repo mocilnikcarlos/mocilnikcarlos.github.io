@@ -57,24 +57,29 @@ const InputSelect = (props) => {
     <div className="box-inputselect">
       <select onChange={handleChange} className="inputselect select">
         <option
-          value="noselect"
+          value={form}
           selected
           disabled
           className="option option-selected"
         >
           {props.placeholder}
         </option>
-        <option value="opcion1" className="option">
+        <option value={form.formOption1} className="option">
           Consultoria UX/UI
         </option>
-        <option value="opcion2" className="option">
+        <option value={form.formOption2} className="option">
           Contratacion por proyecto
         </option>
-        <option value="opcion3" className="option">
+        <option value={form.formOption3} className="option">
           Contratacion directa
         </option>
       </select>
-      <div className="box-btn-select">a</div>
+      <div className="box-btn-select">
+        <div className="box-row-down">
+          <div className="row-down-left change-color"></div>
+          <div className="row-down-right change-color"></div>
+        </div>
+      </div>
     </div>
   );
 };
