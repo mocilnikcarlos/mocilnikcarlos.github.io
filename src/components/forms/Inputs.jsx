@@ -51,4 +51,32 @@ const TextArea = (props) => {
   );
 };
 
-export { InputName, InputEmail, TextArea };
+const InputSelect = (props) => {
+  const { handleChange, form } = handleForm();
+  return (
+    <div className="box-inputselect">
+      <select onChange={handleChange} className="inputselect select">
+        <option
+          value="noselect"
+          selected
+          disabled
+          className="option option-selected"
+        >
+          {props.placeholder}
+        </option>
+        <option value="opcion1" className="option">
+          Consultoria UX/UI
+        </option>
+        <option value="opcion2" className="option">
+          Contratacion por proyecto
+        </option>
+        <option value="opcion3" className="option">
+          Contratacion directa
+        </option>
+      </select>
+      <div className="box-btn-select">a</div>
+    </div>
+  );
+};
+
+export { InputName, InputEmail, TextArea, InputSelect };

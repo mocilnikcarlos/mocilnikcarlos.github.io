@@ -12,6 +12,12 @@
     height: 150px;
 }
 
+.box-inputselect{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
 .resize{
     resize: none;
 }
@@ -61,4 +67,64 @@
     transition: all 200ms ease-in;
     display: inline-block;
     pointer-events: none;background: transparent;
+}
+
+.inputselect{
+    width: 100%;
+    height: 100%;
+}
+
+.select{
+    appearance: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 11px;
+    background: transparent;
+    border: 2px solid $transparentWhite;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    font-family: $text;
+    font-weight: $light;
+    color: $grey;
+    transition: all 200ms ease-in;
+
+    &:focus {
+        border: 2px solid $blue;
+        box-shadow: $shadowBlue;
+        transition: all 200ms ease-in;
+    }
+
+    &:valid{
+        color: white;
+    }
+}
+
+.option {
+    background-color: transparent;
+    color: $background;
+}
+
+.option-selected:nth-child(1) {
+    display: none;
+}
+
+.box-btn-select{
+    position: relative;
+    z-index: -1;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: 0;
+    left: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
