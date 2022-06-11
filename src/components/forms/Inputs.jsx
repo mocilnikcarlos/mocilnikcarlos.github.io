@@ -52,25 +52,32 @@ const TextArea = (props) => {
 };
 
 const InputSelect = (props) => {
-  const { handleChange, form } = handleForm();
+  const { handleSelect, select } = handleForm();
   return (
     <div className="box-inputselect">
-      <select onChange={handleChange} className="inputselect select">
+      <select
+        className="inputselect select"
+        name="option"
+        onChange={handleSelect}
+      >
         <option
-          value={form}
+          defaultValue={select.option}
           selected
           disabled
           className="option option-selected"
         >
           {props.placeholder}
         </option>
-        <option value={form.formOption1} className="option">
+
+        <option value="Consultoria UX/UI" className="option">
           Consultoria UX/UI
         </option>
-        <option value={form.formOption2} className="option">
+
+        <option value="Contratacion por proyecto" className="option">
           Contratacion por proyecto
         </option>
-        <option value={form.formOption3} className="option">
+
+        <option value="Contratacion directa" className="option">
           Contratacion directa
         </option>
       </select>
