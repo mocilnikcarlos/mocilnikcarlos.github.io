@@ -14,7 +14,7 @@ const FormHome = () => {
           <InputEmail placeholder="Email*" type="text" />
         </div>
         <div className="box-textarea">
-          <TextArea placeholder="Deja tu mensaje*" />
+          <TextArea placeholder="Dejame tu mensaje*" />
         </div>
       </div>
       <BtnWeb type="submit" content="Enviar mensaje" />
